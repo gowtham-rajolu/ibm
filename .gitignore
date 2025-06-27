@@ -1,0 +1,52 @@
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# FastAPI / Uvicorn logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# VS Code Python extension
+.python-version
+
+# Node-related (if you're using frontend packages)
+node_modules/
+
+# Ignore package manager metadata (if used)
+*.egg-info/
+dist/
+build/
+
+# Compiled output
+*.so
+*.dll
+*.dylib
