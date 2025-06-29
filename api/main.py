@@ -25,7 +25,7 @@ def fun(role, text):
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "Bearer " + os.getenv("token")  # Store securely in real projects
+        "Authorization": "Bearer " + os.getenv("token") 
     }
 
     response = requests.post(url, headers=headers, json=body)
